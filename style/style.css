@@ -1,0 +1,67 @@
+body {
+    font-family: 'Merriweather', serif;
+    font-family: 'Inter', sans-serif;
+
+}
+
+
+
+.container{
+   background-image: url(../resources/first.png);
+   background-repeat: no-repeat;
+   width:  1320px;
+    height: 600px;
+   margin: 50px auto;
+ 
+}
+.container-header{
+    text-align: center;
+   
+}
+ .container-title
+{
+    color: #FFF;
+font-size: 32px;
+font-weight: 400;
+
+
+
+}
+ .container-announce{
+color: #FFF;
+font-size: 72px;
+font-weight: 900;
+
+}
+/* main section */
+
+.container-main .c-img{
+    width: 800px;
+    height: 500px;
+}
+.container-main{
+    text-align: center;
+}
+.container-main .c-h1{
+    color: #F00;
+font-size: 88px;
+font-weight: 700;
+margin-bottom: 45px;
+
+}
+.container-main .c-h4{
+    color: #F00;
+font-size: 24px;
+font-weight: 500;
+margin-bottom: 0px;
+}
+.container-main .c-h2{
+    color: #070211;
+font-size: 48px;
+font-weight: 700;
+margin-top: 0px;
+}
+
+
+
+
