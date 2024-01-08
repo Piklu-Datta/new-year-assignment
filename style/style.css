@@ -9,7 +9,7 @@ body {
 .container{
    background-image: url(../resources/first.png);
    background-repeat: no-repeat;
-   width:  1320px;
+   max-width:  1320px;
     height: 600px;
    margin: 50px auto;
    text-align: center;
@@ -31,7 +31,7 @@ font-weight: 900;
 width: 630px;
 padding-left: 345px;
 padding-right: 345px;
-padding-bottom: 150px;
+
 }
 /* main section */
 
@@ -62,6 +62,95 @@ font-weight: 700;
 margin-top: 0px;
 }
 
+.m-sec-2{
+   background-image: url("../resources/Vectorrr.png");
+   background-repeat: no-repeat;
+  margin: 120px 350px;
 
+ 
+}
+.sec-container{
+    width: 82%;
+    max-width: 1320px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
+}
+.sec-container .sec-container-child1 h1{
+    color: #FFF;
+font-family: Merriweather;
+font-size: 64px;
+font-style: normal;
+font-weight: 900;
+line-height: 88px; /* 137.5% */
+letter-spacing: 7.04px;
+}
+.sec-container .sec-container-child1 p{
+ color: rgba(255, 255, 255, 0.80);
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+}
+.sec-container .sec-container-child1 button{
+color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+}
+.sec-container-child1{
+    margin-left: 126px;
+}
 
+.sec-container .sec-container-child2 img{
+    width: 155%;
+}
+.m-sec-3{
+  background-color:antiquewhite;
+  display: flex;
+  justify-content: center;
+  max-width: 1320px;
+  margin: 0 auto;
+  height: 480px;
+ 
+}
+.m-sec-3 .m-sec-3-container{
+    margin: 110px auto;
+}
+span{
+color: #F00;
+}
+
+.m-sec-3 .m-sec-3-container>h3{
+color: #070211;
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 56px;
+text-transform: capitalize;
+text-align: justify;
+}
+.m-sec-3 .m-sec-3-container button{
+    margin-top: 40px;
+    padding: 16px 32px;
+    background: #F00;
+    color: #FFF;
+
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+display: flex;
+justify-content: center;
+}
