@@ -208,3 +208,57 @@ line-height: 32px; /* 160% */
     font-weight: 700;
     line-height: normal;
 }
+.gift-container{
+   
+    margin: 120px auto;
+    max-width: 1320px;
+}
+.gift-container h3{
+    color: #F00;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-bottom: 0px;
+}
+.gift-container h1{
+    margin-top: 10px;
+    color: #070211;
+font-family: Merriweather;
+font-size:40px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+
+}
+.shared-style-2{
+    margin-bottom: 24px;
+}
+/* footer section */
+footer{
+    background: #070211;
+}
+.f-c-1  p{
+    color: white;
+}
+.f-c-2 div p{
+    color: white;
+}
+.f-s-c-1
+{
+    display: flex;
+    align-items: center;
+}
+.f-s-c-2
+{
+    display: flex;
+    align-items: center;
+}
+.f-c-2{
+    display: inline-block;
+}
+
+
+
