@@ -239,8 +239,14 @@ line-height: normal;
 text-transform: capitalize;
 
 }
+.gift-container-c-1 #b1 ,#b2{
+    margin-right: 18px;
+}
+.gift-container-c-2 #b3,#b4{
+    margin-right: 18px;
+}
 .shared-style-2{
-    margin-bottom: 24px;
+    margin-bottom: 18px;
 }
 .Subscribe-info{
     background: rgba(255, 0, 0, 0.05);
@@ -315,11 +321,11 @@ footer{
 }
 .column-1-c-1{
     display: flex;
-    gap: 13px;
+    gap: 14px;
 }
 .column-1-c-2{
     display: flex;
-    gap: 13px;
+    gap: 14px;
 } 
 .shared-footer-style-1{
 color: #FFF;
