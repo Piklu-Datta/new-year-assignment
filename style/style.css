@@ -41,8 +41,8 @@ font-family: Merriweather;
     height: 500px;
 }
 .container-main{
-    max-width: 1320px;
-    margin:120px auto;
+    text-align: center;
+    
 }
 .container-main .c-h1{
     color: #F00;
