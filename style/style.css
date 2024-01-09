@@ -7,7 +7,7 @@ body {
 
 
 .container{
-   background-image: url(../resources/first.png);
+    background:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../resources/first.png"); 
    background-repeat: no-repeat;
    max-width: 632px;
    padding: 120px 344px;
@@ -22,13 +22,14 @@ body {
 font-size: 32px;
 font-weight: 400;
 margin-top: 30px;
+font-family: Merriweather;
 
 }
  .container-announce{
 color: #FFF;
 font-size: 72px;
 font-weight: 900;
-
+font-family: Merriweather;
 
 
 }
@@ -63,7 +64,7 @@ margin-top: 0px;
 }
 
 .m-sec-2{
-   background-image: url("../resources/Vectorrr.png");
+    background:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../resources/Vectorrr.png"); 
    background-repeat: no-repeat;
    
   margin: 120px 350px;
@@ -171,7 +172,7 @@ text-transform: uppercase;
     flex-shrink: 0;
    border-radius:50%;
    border: 15px solid #F00;
-   margin-right: 100px;
+   margin-right: 120px;
 
 }
 .info-offer-child2 img{
@@ -265,7 +266,7 @@ text-transform: capitalize;
 width: 648px;
 height: 65px;
 border-radius: 50px 0px 0px 50px;
-
+border: none;
 background: #FFF;
 color: rgba(7, 2, 17, 0.30);
 font-family: Inter;
@@ -277,9 +278,10 @@ line-height: normal;
 }
 .Subscribe-info-d{
 border-radius: 0px 50px 50px 0px;
+border: none;
 background: #F00;
 width: 210px;
-height: 70px;
+height: 65px;
 color: #FFF;
 
 text-align: center;
@@ -308,6 +310,7 @@ footer{
     padding: 0px 140px ;
     padding-top: 100px;
     padding-bottom: 50px;
+    gap: 400px;
 
 }
 .column-1-c-1{
